@@ -263,6 +263,7 @@ header {
   padding: 21px 40px;
   align-items: flex-start;
   gap: 10px;
+  
 }
 
 .career-img {
@@ -306,16 +307,47 @@ header {
 }
 
 .footer-container{
+  background-color:#0B0223;
+  color: #FFF;
+  width: 100%;
+}
+.footer-img{
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
+  font-size: 45px;
+  gap: 20px;
+  
+}
+.footer-color{
+  color: #FF42A5;
+  font-size: px;
+}
+.footer-menu ul {
   display: flex;
   justify-content: center;
-  align-items: center;
-  gap: 30px;
+  gap: 60px;
+  
 }
-.footer-container .nav-font{
-  font-size: 30px;
+.footer-menu ul li{
+  list-style: none;
+
+}
+.icon-img ul{
+  display: flex;
   justify-content: center;
-  align-items: center;
-  margin-bottom:10px;
+  gap:50px;
+  font-size: 30px;
+}
+.footer-policy ul{
+  display: flex;
+  justify-content: center;
+  gap:50px;
+  list-style: none;
+}
+.copyright{
+  text-align: center;
 }
 
 @media screen and (max-width: 576px) {
@@ -325,7 +357,8 @@ header {
   .gamer,
   .game-pic,
   .play-instanly,
-  .career-container {
+  .career-container,
+  .icon-img {
     flex-direction: column;
 
   }
@@ -375,5 +408,9 @@ header {
     margin-top: 130px;
 
   }
+  .footer-menu{
+    width: 50%;
+  }
+  
 
 }
