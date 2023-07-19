@@ -223,47 +223,100 @@ header {
   justify-content: center;
   align-items: center;
 }
+
 /* career-container */
-.career-container{
+.career-container {
   background-color: #FF42A5;
   display: flex;
   text-align: left;
   justify-content: space-between;
-  
+
   width: 100%;
 
 }
-.career-description{
-  margin:120px 0 0 200px;
+
+.career-description {
+  margin: 120px 0 0 200px;
   width: 100%;
   color: #FFF;
- font-family: Work Sans;
- font-size: 18px;
- font-style: normal;
- font-weight: 400;
- line-height: 30px; 
- 
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+
 }
-.career-description .first-text .second-text{
+
+.career-description .first-text .second-text {
   line-height: 4px;
 }
-.text-container{
+
+.text-container {
   display: flex;
   gap: 100px;
 }
-.wheit-btn{
-border-radius: 48px;
-background: #FFF;
-display: inline-flex;
-padding: 21px 40px;
-align-items: flex-start;
-gap: 10px;
+
+.wheit-btn {
+  border-radius: 48px;
+  background: #FFF;
+  display: inline-flex;
+  padding: 21px 40px;
+  align-items: flex-start;
+  gap: 10px;
 }
-.career-img{
+
+.career-img {
   width: 100%;
 }
 
+/* card-container */
 
+
+.card-container {
+  padding: 120px 0;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+
+}
+
+.card-container .card-game {
+  display: flex;
+  padding: 6px 16px;
+  border-radius: 100px;
+  border: 3px solid #fff;
+}
+
+.card-container .card-game:hover {
+  border: 3px solid #F948B2;
+}
+
+.card-container .card-game:nth-child(4) {
+  border: 3px solid #F948B2;
+}
+
+.card-game {
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.footer-container .nav-font{
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom:10px;
+}
 
 @media screen and (max-width: 576px) {
 
@@ -286,37 +339,41 @@ gap: 10px;
     margin: 0 auto;
     justify-content: center;
   }
-  .career-img img{
+
+  .career-img img {
     width: 100%;
   }
 
   .game-pic div {
     margin: 0 auto;
   }
-  .play-instanly{
+
+  .play-instanly {
     margin-top: 200px;
     gap: 50px;
   }
-  .play-title{
+
+  .play-title {
     text-align: center;
   }
 
   .online-game {
     margin-top: 70px;
   }
-  .career-description{
+
+  .career-description {
     width: 100%;
-  margin-left: 5px;
-  align-items: center;
-  justify-content: center;
-  padding: 5px;
-  font-size: 14px;
+    margin-left: 5px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    font-size: 14px;
   }
-  .career-container{
+
+  .career-container {
     margin: 0px;
     margin-top: 130px;
-    
-  }
- 
-}
 
+  }
+
+}
